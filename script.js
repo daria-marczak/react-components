@@ -50,7 +50,7 @@ var MovieDesc = React.createClass({
 
 var MoviePoster = React.createClass({
     propTypes: {
-        poster: React.PropTypes.object.isRequired
+        poster: React.PropTypes.string.isRequired
     },
 
     render: function() {
